@@ -1,0 +1,16 @@
+{
+  "num_epochs": 10,
+  "batch_size": 8,
+  "gradient_accumulation_steps": 4,
+  "learning_rate": 2e-05,
+  "warmup_ratio": 0.1,
+  "max_grad_norm": 1.0,
+  "weight_decay": 0.01,
+  "max_length": 128,
+  "early_stopping_patience": 3,
+  "lr_finder_start_lr": 1e-07,
+  "lr_finder_end_lr": 1,
+  "lr_finder_num_iter": 100,
+  "tokenizers_parallelism": false,
+  "val_ratio": 0.2
+}
