@@ -46,7 +46,7 @@ python src/data/contaminate_data.py
 
 2. Data Splitting and Balancing:
 ```bash
-cd src/data
+cd src/data/data_processor.py
 ```
 
 ## Training Process
